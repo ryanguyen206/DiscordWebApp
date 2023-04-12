@@ -1,22 +1,89 @@
-html {
-  font-size: 14px;
+h1 {
+
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.home_h1 {
+    font-size:4rem;
+    padding-top:2em;
+    font-weight:700;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.content {
+    position:relative;
+
+
 }
 
-body {
-  margin-bottom: 60px;
+
+.left_pic {
+    position:absolute;
+    top:220px;
+    right:100px;
 }
 
-.testing {
-    background-color:blue;
+.right_pic {
+    position:absolute;
+    left:100px;
+    top:220px;
+}
+
+.downloadDisc, .openBrowser {
+    border:1px solid white;
+    padding: 1em 0;
+    border-radius:100px;
+    background-color:white;
+    width:30%;
+    font-size:1.1rem;
+    font-weight:500;
+}
+
+
+.downloadDisc:hover, .openBrowser:hover {
+    text-decoration:none;
+}
+
+.openBrowser {
+    background-color:black;
+    border:1px solid black;
+}
+
+    .openBrowser:hover {
+        box-shadow: 0px 0px 30px 8px rgba(130,141,139,0.73);
+    }
+.downIcon {
+    margin-right:10px;
+}
+
+.belong_h2 {
+
+    font-size:2.5rem;
+    font-weight:700;
+}
+
+.belong {
+    height:30%;
+}
+
+.belong-right, .hanging-right {
+    width: 35%
+}
+
+.hanging-container {
+    background-color: #f6f6f6;
+    padding:3em;
+}
+
+.hanging-right {
+    text-align:left;
+}
+
+.fan {
+    text-align:left;
+}
+
+.h2_reliable {
+    font-size:3.3rem;
+    text-align:center;
+
+
 }

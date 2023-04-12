@@ -46,7 +46,7 @@ html {
 
 header {
     background-color: #404eed;
-    height:50vh;
+    height:10vh;
 }
 body {
   margin-bottom: 60px;
@@ -58,4 +58,9 @@ ul li a {
 }
 
 
+.top_div {
+    background-color: #404eed;
+    height: 60vh;
+ 
+}
 
