@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model LoginUser
+
+<div class="full_container">
+
+       <form asp-action="Post" method="post">
+           <label asp-for="Email"></label>
+           <input asp-for="@Model.Email"/>
+           <label asp-for="Password"></label>
+           <input asp-for="@Model.Password"/>
+           <button type="submit">Login</button>
+       </form>
+</div>
+
+
