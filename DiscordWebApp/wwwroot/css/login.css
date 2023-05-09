@@ -2,3 +2,30 @@
     background-color: #404eed;
     height:100vh;
 }
+
+
+.loginForm {
+    background-color: #313338;
+    width: 37%;
+    color: white;
+    border-color: #313338;
+}
+
+.form_text_lightgrey {
+    color: #b5bac1;
+}
+
+.qr_side {
+    width:33%;
+    margin-left:5em;
+}
+
+.left_side {
+    width:66%;
+}
+
+.loginBtn {
+    background-color: #5865f2;
+    color:white;
+    padding:10px;
+}

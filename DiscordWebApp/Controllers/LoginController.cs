@@ -39,7 +39,7 @@ namespace DiscordWebApp.Controllers
 
 
 
-            return View("Index");
+         
 
 
         }

@@ -87,3 +87,15 @@ h1 {
 
 
 }
+
+.navigateToLoginBtn {
+    background-color: white;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.navigateToLoginBtn:hover {
+    text-decoration: none;
+}
