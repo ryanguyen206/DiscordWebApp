@@ -1,0 +1,10 @@
+﻿@model DiscordWebApp.Models.Person
+
+@{
+    ViewData["Title"] = "Post";
+}
+
+<h1>Hi, @Model.Email</h1>
+<h1>Hi, @Model.FirstName</h1>
+
+ <a class="text-black" asp-controller="Login" asp-route-id="@Model.Id" asp-action="Edit">Edit</a>
